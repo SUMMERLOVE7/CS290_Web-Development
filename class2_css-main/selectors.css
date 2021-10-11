@@ -1,0 +1,67 @@
+body{
+    font-family: sans-serif;
+}
+
+/*
+p : selector
+p와 h1은 element : 1
+*/
+p{
+    background-color: chartreuse;
+}
+
+h1{
+    font-size: 128px;
+}
+
+/*class selector는 항상 점으로 시작
+italics-text랑 with-border는 class : 1, element : 0
+
+*/
+.italics-text{
+    font-style: italic;
+}
+
+.with-border{
+    border: 4px dashed darkmagenta;
+}
+
+/*id selector는 #hash로 시작
+id : 1, class : 0, element : 0 
+*/
+#site-title{
+    color: goldenrod;
+}
+
+/*class : 1, element : 1 */
+p.italics-text{
+    font-weight: bold;
+}
+
+/* id : 1, class : 0, element : 1 */
+h1#site-title{
+
+}
+
+/*class : 2, element : 0 */
+.italics-text.with-border{
+
+}
+
+.italics-text p{
+    color : tomato;
+}
+
+.italics-text > p{
+    background-color: slateblue;
+}
+/*
+element : 2
+*/
+h1, p{
+    font-family: monospace;
+}
+
+div p{
+
+}
