@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>CSS Selectors</title>
+    <link href="selectors.css" rel="stylesheet" />
+    <!--rel : relationship  // CSS : Cascading Style Sheets -->
+    <!--<style>
+    </style>은 이 안에서 css바꾸고싶을때-->
+  </head>
+  <body>
+    <!--h1 style=""로 해줄수도 있으나 그러면 h1에 해당하는걸 다 바꿔야함-->
+    <!--
+      <selector>{
+        <property>;
+        <property>;
+      }
+      
+      Sample Selectors
+      - Element selector : select all HTML elements
+      - Class selector : 
+      - ID Selector : similar to class selector, id는 1개의 element만, unique
+      http://~~~#hash : #hash id로 directly jump
+
+      Five main Combinators
+      - 서로 다른 Selector A, B 가 있다고 하자. 
+      - AB : select a B that's also an A
+      - A B : A space B. Selects a B that's a descandent of an A.
+      - A > B : selects a B that is a direct child of an A
+      - A + B
+      - A ~ B   바로위에꺼랑 두개 sibling. 
+      :not()
+
+      specificity : four digit number  __   __   __   __
+                                     inline id class  element
+      
+    -->
+    <h1 id="site-title" class="italics-text">This is the title</h1>
+
+    <div class="italics-text with-border">  <!--class 2개, italics-text, with-border-->
+      First div
+      <p>First div's paragraph</p>
+    </div>
+
+    <div class="with-border">
+      Second div
+      <p>Second div's paragraph</p>
+    </div>
+
+    <div style="color:blue;">  <!--inline style-->
+      Third div
+      <p class="italics-text">Third div's paragraph</p>
+    </div>
+
+    <!--http://~#bookmarked-div-->
+    <div id="bookmarked-div" class="italics-text">
+      Fourth div
+      <p>Fourth div's paragraph</p>
+      <div><div><div><p>Deeply nested paragraph</p></div></div></div>
+    </div>
+
+    <div>
+      Fifth div
+      <p>Fifth div's paragraph</p>
+    </div>
+
+  </body>
+</html>
