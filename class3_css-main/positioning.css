@@ -6,7 +6,8 @@ p {
   margin: 5px;
 }
 
-.outer {
+.outer {  /*green box*/
+  position: relative;
   width: 400px;
   height: 400px;
   margin: 5px;
@@ -30,4 +31,35 @@ p {
 
 .inner.unpositioned {
   background-color: #ababab;
+}
+
+.static{
+  position: static;
+
+}
+
+.relative{
+  position: relative;
+  top: 50px;  /*윗 여백 : 50px*/
+  left: 100px;
+  /*bottom: 50px;
+  right: 100px;*/
+  z-index: 1;
+}
+
+.absolute{
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  /*top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);*/
+}
+
+.fixed{
+  position: fixed;  /*박스가 고정되어서 페이지 스크롤해도 움직이지 않음*/
+  /*top: 50px;
+  left: 50px;*/
+  bottom: 50px;
+  right: 50px;
 }
