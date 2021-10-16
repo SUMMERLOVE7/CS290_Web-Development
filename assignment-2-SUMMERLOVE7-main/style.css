@@ -1,0 +1,29 @@
+/*
+ * You should write your CSS in this file.  Don't forget to add your name and
+ * @oregonstate.edu email address below.
+ *
+ * name: MIN JI CHANG
+ * email: changmin@oregonstate.edu
+ */
+
+ .site-title{
+     width: auto;
+     height: 150px;
+     padding-left: 20px;
+     font-family: 'Roboto Slab', serif;
+     font-size: 80px;
+     color: white;
+     background-color: black;
+     display: flex;
+     align-items: flex-end;
+ }
+
+ a{
+     color: inherit;
+     position: inherit;
+ }
+
+ .header-image-container{
+    width: 150px;
+    float: left;
+ }
