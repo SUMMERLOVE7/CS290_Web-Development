@@ -38,3 +38,19 @@ header h1 {
 .right {
   float: right;
 }
+
+@media(max-width: 640px){
+  .navitem{
+    display: block;
+  }
+
+  .navitem.right{
+    float: none;  /*login 버튼이 고정되지 않고 화면축소시 다른 navitem과 함께 새로로 정렬되도록*/
+  }
+}
+
+@media(max-width: 800px){
+  header h1{
+    font-size: 24px;
+  }
+}
