@@ -6,7 +6,7 @@
  * email: changmin@oregonstate.edu
  */
 
- .site-title{
+.site-title{
      width: auto;
      height: 150px;
      padding-left: 20px;
@@ -17,62 +17,184 @@
      background-color: black;
      display: flex;
      align-items: flex-end;
- }
+}
 
- a{
+a{
      color: inherit;
      position: inherit;
- }
+     text-decoration-line: none;
+     font-weight: 500;
+}
 
- .header-image-container{
+.header-image-container{
     width: 150px;
     float: left;
- }
+}
 
 h2{
     margin-top: 10px;
     margin-bottom: 20px;
 }
 
- .filter-container{
-     background-color: rgb(214, 210, 210);
+.content{
+    float: left;
+}
+
+.filter-container{
+     background-color: rgb(229, 226, 226);
+     font-family: 'Roboto', sans-serif;
+     font-weight: bold;
      margin: 10px;
      padding-top: 10px;
      padding-left: 10px;
      padding: 10px;
-     width: fit-content;
-     
+     width: 250px;
+     height: fit-content;
+     margin-right: 0;    
+     border-radius: 5px;   
 }
- .filter-input-container{
+
+.filter-input-container{
      display: flex;
+     margin: 10px auto;
+}
 
- }
-
- .filter-input-element{
+.filter-input-element{
      padding-left: 10px;
      margin-bottom: 10px;
- }
+}
 
- .filter-input{
+.filter-input{
     border-radius: 2px;
     border: lightgray;
     font-size: 16px;
- }
+}
 
- #filter-min-price {
+#filter-min-price {
     width: 86px;
- }
+}
 
- #filter-max-price{
+#filter-max-price{
      width: 86px;
- }
+}
 
- .filter-fieldset{
+.filter-fieldset{
      width: 100%;
- }
+}
 
- .action-button{
+.action-button{
+     width: 100%;
+     height: 40px;
      background-color: black;
      color: white;
+     font-weight: 200;
      border-radius: 5px;
- }
+     margin: auto;
+     display: block;
+}
+
+.action-button:hover{
+     background-color: rgb(237, 182, 100);
+     cursor: pointer;
+}
+
+#filter-update-button{
+     margin-top: 15px;
+     margin-bottom: 10px;
+     font-size: 20px;    
+     font-weight: 200;
+}
+
+.content{
+    display: flex;
+    
+}
+
+#posts{
+    margin-left: 10px;
+    margin-top: 8px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+#sell-something-button{
+    border: tomato;
+    border-radius: 50%;
+    background-color:tomato;
+    color: white;
+    font-size: 30px;
+    align-items: center;
+    box-shadow: 3px 3px 3px rgba(131, 134, 133, 0.4);
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+
+#sell-something-button:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: .3s;
+}
+
+.post-contents{
+    text-align:left;
+    display: table;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    width: 300px;
+    height: 330px;  
+    max-height: 320px; 
+}
+
+.post-image-container{
+    width: 300px;
+    max-height: 300px;
+    height: auto; 
+    object-fit: contain;
+    text-align: center;
+}
+
+.post-image-container img{
+    margin: 10px;
+    max-width: 280px;   
+    max-height: 250px;
+    height: min-content;
+    object-fit: contain;
+}
+
+.post-info-container{
+    vertical-align: inherit;
+    text-align: start;
+    padding-left: 10px;
+    line-height: 1.5em;
+}
+
+.post-title{
+    color: rgb(240, 114, 92);
+    text-align: start;
+    margin-right: 3px;
+    font-weight: bold;
+    text-decoration-line: none;
+}
+
+.post-title:hover{
+    cursor: pointer;
+    text-decoration-line: underline;
+}
+
+.post-price{
+    background-color: lightgray;
+    border-radius: 3px;
+    border: 1px solid rgb(163, 163, 163);
+    text-align: center;
+    font-size: 13px;
+    font-family: 'Roboto', serif;
+    padding: 3px;
+    margin-right: 3px;
+}
+
+.post-city{
+    font-weight: bold;
+    font-family: 'Roboto', serif;
+}
