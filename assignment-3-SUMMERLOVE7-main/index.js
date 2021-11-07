@@ -2,8 +2,8 @@
  * Write your client-side JS code in this file.  Don't forget to include your
  * name and @oregonstate.edu email address below.
  *
- * Name: Min Ji Chang
- * Email: changmin@oregonstate.edu
+ * Name: 
+ * Email: 
  */
 
 var showModal = document.getElementById('sell-something-button')
