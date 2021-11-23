@@ -1,8 +1,8 @@
 /*
  * Write your server code in this file.
  *
- * name: Min Ji Chang
- * email: changmin@oregonstate.edu
+ * name: 
+ * email: 
  */
 
 
