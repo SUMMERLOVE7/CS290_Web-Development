@@ -1,0 +1,21 @@
+{{> header}}
+{{#if badPage}}
+<main class="error-container">
+  {{> 404}}
+  {{else}}
+
+<main class="content">
+  {{#unless single}}
+    {{> filter}}
+  {{/unless}}
+  <section id="posts">
+    {{#each postContents}}
+      {{> postContents this }}
+    {{/each}}
+  </section>
+  {{#unless single}}
+    {{> button}}
+  {{/unless}}
+{{/if}}
+</main>
+       
