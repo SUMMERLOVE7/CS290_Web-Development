@@ -2,8 +2,8 @@
  * Write your routing code in this file.  Make sure to add your name and
  * @oregonstate.edu email address below.
  *
- * Name: Min Ji Chang
- * Email: changmin@oregonstate.edu
+ * Name: 
+ * Email: 
  */
 
 var path = require('path');
