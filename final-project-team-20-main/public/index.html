@@ -1,0 +1,65 @@
+<!-- hard coded html, not needed -->
+<!-- by Ella Riis, Javier Garcia, Min Ji Chang, and Cyrus Shafizadeh -->
+
+<!DOCTYPE html>
+
+<html>
+	<head>
+
+		<meta charset='utf-8'>
+		<title>Dice Site</title>
+
+		<link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap" rel="stylesheet">
+
+		<link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:wght@100;300;700&family=Roboto+Slab&display=swap" rel="stylesheet">
+
+		<link rel="stylesheet" href="style.css">
+
+		<script src="index.js" charset="utf-8" defer></script>
+	</head>
+
+	<body>
+		<header>
+			<div class="header-image-container">
+				<img src="dice-roll.gif" alt="Dice Logo"i> <!-- dice gif found at https://cdn.dribbble.com/users/41854/screenshots/2479300/sana-dice-800x600.gif -->
+			</div>
+
+			<h1 class="site-title"><a href="#">Dice Site</a></h1>
+
+		</header>
+
+	<main class="content">
+		<aside class="filter-container">
+			<div class="add-and-remove-section">
+					<div class="add-dice-container">
+                        	<div class="add-dice-button">
+                                	<button type="button" id="add-dice">Add Dice</button>
+                        	</div>
+					</div>
+					<div class="remove-dice-container">
+                        	<div class="remove-dice-button">
+                                	<button type="button" id="remove-dice">Remove Dice</button>
+                        	</div>
+					</div>
+            </div>
+
+                	<div class="roll-section">
+                        	<div class="roll-button">
+                        	        <button type="button" id="roll">Roll</button>
+                        	</div>
+                	</div>
+		</aside>
+
+		<section id="dice">
+			<div class="dice-card">
+				<div class="dice-img-container">
+					<img id = 'diceImg' src="dices/dice1.jpg" alt="Dice to be rolled">
+				</div>
+				<div class="dice-caption">
+				</div>
+			</div>
+
+		</section>
+	</main>
+	</body>
+</html>

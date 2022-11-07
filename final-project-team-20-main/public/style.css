@@ -1,0 +1,158 @@
+/* CSS
+by Ella Riis, Javier Garcia, Min Ji Chang, and Cyrus Shafizadeh
+*/
+
+body {
+	margin: 0px;
+}
+
+header {
+	background-color: white;
+	display: flex;
+	border-bottom: 5px solid #000000;
+}
+
+.header-image-container {
+	display: inline-block;
+	margin: 0px;
+	vertical-align: middle;
+	max-width: 266px;
+	max-height: 200px;
+}
+
+.header-image-container img {
+	max-width: 266px;
+	max-height: 200px;
+	display: inline-block;
+}
+
+.site-title a {
+	color: black;
+	text-decoration: none;
+	font-size: 100px;
+}
+
+.site-title {
+	font-family: "Roboto Slab", serif;
+	vertical-align: bottom;
+	color: #FFFFFF;
+	display: inline-block;
+	font-size: 70px;
+	margin: 70px 0px 0px 10px;
+}
+
+.dice-card {
+	display: inline-block;
+	margin: 10px;
+	width: 300px;
+	height: 300px;
+	border: 5px solid #000000;
+}
+
+.dice-img-container {
+	margin: 0px;
+	display: inline-block;
+	width: 300px;
+	height: 300px;
+}
+
+.dice-img-container img {
+	width: 300px;
+	height: 300px;
+	display: inline-block;
+}
+
+.dice-caption {
+	text-align: center;
+	font-family: "Roboto Slab", serif;
+	font-size: 30px;
+}
+
+
+.filter-container {
+	border: 5px solid #000000;
+	max-width: 250px;
+	max-height: 300px;
+	display: inline-block;
+	margin: 10px;
+}
+
+#dice {
+	display: inline-block;
+}
+
+.add-dice-button {
+	margin: 10px;
+}
+
+.remove-dice-button {
+	margin: 10px;
+}
+
+.roll-button {
+	margin: 10px;
+}
+
+.roll-section {
+	padding: 0px 0px 0px 0px;
+	display: inline-block;
+}
+
+.content {
+	display: flex;
+}
+
+#add-dice:hover{
+	color: white;
+	cursor: pointer;
+}
+
+#add-dice {
+	font-family: "Roboto Mono", serif;
+	height: 50px;
+	width: 150px;
+	font-size: 20px;
+	border-radius: 5px;
+	border: 1px solid #000000;
+	background-color: #74cafc;
+}
+
+#remove-dice:hover{
+	color: white;
+	cursor: pointer;
+}
+
+#remove-dice {
+	font-family: "Roboto Mono", serif;
+	height: 50px;
+	width: 150px;
+	font-size: 20px;
+	border-radius: 5px;
+	border: 1px solid #000000;
+	background-color: #74cafc;
+}
+
+#roll:hover {
+	color: white;
+	cursor: pointer;
+}
+
+#roll {
+	font-family: "Roboto Mono", serif;
+	height: 50px;
+	width: 200px;
+	font-size: 30px;
+	border-radius: 5px;
+	border: 1px solid #000000;
+	background-color: #74cafc;
+}
+
+#total-roll {
+	height: 30px;
+	width: 100px;
+	background-color: #74cafc;
+	margin-left: 10px;
+	margin-top: 60px;
+	border-radius: 5px;
+	border: 1px solid #000000
+}

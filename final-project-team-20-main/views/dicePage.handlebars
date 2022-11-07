@@ -1,0 +1,31 @@
+<main class="content">
+	<aside class="filter-container">
+		<div class="add-and-remove-section">
+				<div class="add-dice-container">
+						<div class="add-dice-button">
+								<button type="button" id="add-dice">Add Dice</button>
+						</div>
+				</div>
+				<div class="remove-dice-container">
+						<div class="remove-dice-button">
+								<button type="button" id="remove-dice">Remove Dice</button>
+						</div>
+				</div>
+		</div>
+
+			<button type="button" id="total-roll"></button>
+
+				<div class="roll-section">
+						<div class="roll-button">
+								<button type="button" id="roll">Roll</button>
+						</div>
+				</div>
+
+	</aside>
+
+	<section id="dice">
+		{{#each urls}}
+			{{> diceImage}}
+		{{/each}}
+	</section>
+</main>
